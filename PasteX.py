@@ -45,7 +45,7 @@ def logo():
 """)
 time.sleep(1)
 re = requests.get('http://evo-updater.glitch.me/pastex.htm')
-if 'Update' in re.text:
+if "1.5" not in r.text:
   input(Fore.GREEN + "Update avalible! Please update on Github")
   webbrowser.open_new(url="https://github.com/evo0616lution/PasteX/releases)
 logo()
