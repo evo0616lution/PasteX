@@ -44,10 +44,10 @@ def logo():
                                                      
 """)
 time.sleep(1)
-re = requests.get('http://evosworld.glitch.me/px_updates.html')
+re = requests.get('http://evo-updater.glitch.me/pastex.htm')
 if 'Update' in re.text:
-  input(Fore.GREEN + "Update avalible!")
-  webbrowser.open_new(url="http://evosworld.glitch.me/px_updates.html")
+  input(Fore.GREEN + "Update avalible! Please update on Github")
+  webbrowser.open_new(url="https://github.com/evo0616lution/PasteX/releases)
 logo()
 obj = input(Fore.RESET + "Paste text you want to upload:\n")
 time.sleep(1)
